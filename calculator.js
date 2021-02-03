@@ -5,6 +5,12 @@ let theopration = "-";
 // Write if-statements here
 if (theopration === "-") {
   console.log(num1 - num2);
+} else if (theopration === "*") {
+  console.log(num1 * num2);
+} else if (theopration === "/") {
+  console.log(num1 / num2);
+} else if (theopration === "+") {
+  console.log(num1 + num2);
 } else {
-  console.log("it's not the same");
+  console.log("No Equation");
 }
